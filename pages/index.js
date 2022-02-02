@@ -67,7 +67,7 @@ export async function getStaticProps(){
 
   const cardData = await fetch('https://links.papareact.com/zp1')
   .then((res)=>res.json())
-  console.log(cardData);
+  // console.log(cardData);
 
   return {
     props:{
